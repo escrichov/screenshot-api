@@ -22,5 +22,5 @@ GET /api?url=https://google.com&height=500&width=500&lang=en-US&type=png
 ```
 Returns:
 ```
-Array<URL>
+Image
 ```
