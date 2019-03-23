@@ -24,3 +24,18 @@ Returns:
 ```
 Image
 ```
+
+## Create Deamon
+
+Setup
+```
+sudo npm install pm2@latest -g
+pm2 start server.js
+pm2 startup systemd
+pm2 save
+```
+
+View status
+```
+pm2 status
+```
